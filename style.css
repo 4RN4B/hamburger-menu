@@ -19,6 +19,7 @@
     left: calc(50% - 18px);
 }
 .nav-button {
+    cursor: pointer;
     position: absolute;
     top: 0;
     left: 0;
@@ -46,4 +47,15 @@
 }
 .low {
     bottom: 4px;
+}
+.open .up {
+    transform: translateY(12px) rotate(45deg);
+}
+.open .mid {
+    left: -10px;
+    opacity: 0;
+    visibility: hidden;
+}
+.open .low {
+    transform: translateY(-12px) rotate(-45deg);
 }
